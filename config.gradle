@@ -1,0 +1,11 @@
+/**
+ * 是否是集成模式，
+ * true：集成模式，除主Module之外的module不可独立运行
+ * false：组件模式，组件Module可以进行单独运行与测试，用于保证组件业务的独立性与正确性
+ */
+isIntegrationMode = true
+
+/**
+ * 打包时，APP的包名
+ */
+packageName = "com.meiling.app"
